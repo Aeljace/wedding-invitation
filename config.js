@@ -1,3 +1,4 @@
+// Cloudflare Pages wedding invitation configuration
 window.WEDDING_CONFIG = {
   couple: {
     partnerOne: "Mia",
