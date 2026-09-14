@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f0e8" />
+  <meta name="description" content="A modern, elegant wedding invitation website template." />
+  <title>Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Wedding home"><span data-monogram>M & L</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#story">Our Story</a>
+      <a href="#details">Details</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#rsvp">RSVP</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-flower hero-flower-a" aria-hidden="true"></div>
+      <div class="hero-flower hero-flower-b" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">We are getting married</p>
+        <h1><span data-partner-one>Mia</span><em>&</em><span data-partner-two>Lucas</span></h1>
+        <p class="hero-tagline" data-tagline>Together with our families, we joyfully invite you to celebrate our wedding.</p>
+        <div class="hero-meta">
+          <span data-display-date>Sunday, May 16, 2027</span>
+          <span aria-hidden="true">•</span>
+          <span data-city>Cebu City, Philippines</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#rsvp">RSVP Now</a>
+          <a class="btn btn-ghost" href="#details">View Details</a>
+        </div>
+      </div>
+      <div class="hero-card reveal" aria-label="Wedding date card">
+        <span class="hero-card-small">Save the date</span>
+        <strong class="hero-card-day" data-date-day>16</strong>
+        <span class="hero-card-month" data-date-month>May 2027</span>
+        <span class="hero-card-line"></span>
+        <span data-ceremony-time>3:30 PM</span>
+      </div>
+    </section>
+
+    <section class="countdown-wrap" aria-label="Wedding countdown">
+      <div class="countdown reveal" id="countdown">
+        <div><strong data-days>000</strong><span>Days</span></div>
+        <div><strong data-hours>00</strong><span>Hours</span></div>
+        <div><strong data-minutes>00</strong><span>Minutes</span></div>
+        <div><strong data-seconds>00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section-pad story-grid" id="story">
+      <div class="story-art reveal" aria-hidden="true">
+        <div class="arch arch-back"></div>
+        <div class="arch arch-front"><span data-monogram>M & L</span></div>
+      </div>
+      <div class="story-copy reveal">
+        <p class="eyebrow" data-story-eyebrow>Our Story</p>
+        <h2 data-story-heading>A little story about us</h2>
+        <p class="lead" data-story-body>What began as a simple hello grew into a friendship, a partnership, and a life we love building together.</p>
+        <p class="script-line">and so the adventure continues...</p>
+      </div>
+    </section>
+
+    <section class="details section-pad" id="details">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Wedding Day</p>
+        <h2>Celebrate with us</h2>
+        <p>Everything you need for the day, all in one place.</p>
+      </div>
+      <div class="detail-cards">
+        <article class="detail-card reveal">
+          <span class="detail-number">01</span>
+          <p class="eyebrow">Ceremony</p>
+          <h3 data-ceremony-name>The Garden Chapel</h3>
+          <p><strong data-ceremony-time>3:30 PM</strong></p>
+          <p data-ceremony-address>Cebu City, Philippines</p>
+          <a class="text-link" data-ceremony-map target="_blank" rel="noopener">Open map →</a>
+        </article>
+        <article class="detail-card reveal">
+          <span class="detail-number">02</span>
+          <p class="eyebrow">Reception</p>
+          <h3 data-reception-name>The Garden Pavilion</h3>
+          <p><strong data-reception-time>5:30 PM</strong></p>
+          <p data-reception-address>Cebu City, Philippines</p>
+          <a class="text-link" data-reception-map target="_blank" rel="noopener">Open map →</a>
+        </article>
+        <article class="detail-card reveal">
+          <span class="detail-number">03</span>
+          <p class="eyebrow">Dress Code</p>
+          <h3 data-dress-title>Garden Formal</h3>
+          <p data-dress-text>Soft neutrals, sage, dusty rose, champagne, and warm earth tones are welcome.</p>
+          <div class="palette" data-palette aria-label="Suggested color palette"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline-section section-pad">
+      <div class="section-heading reveal">
+        <p class="eyebrow">The Schedule</p>
+        <h2>Our day together</h2>
+      </div>
+      <div class="timeline" data-timeline></div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-pad gallery-heading reveal">
+        <p class="eyebrow">A few favorite moments</p>
+        <h2>Captured with love</h2>
+      </div>
+      <div class="gallery-grid" data-gallery></div>
+    </section>
+
+    <section class="section-pad entourage-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">With Love From</p>
+        <h2>Our wedding party</h2>
+      </div>
+      <div class="entourage-grid" data-entourage></div>
+    </section>
+
+    <section class="section-pad gift-section">
+      <div class="gift-card reveal">
+        <p class="eyebrow">With all our love</p>
+        <h2>Your presence is our present</h2>
+        <p data-gift-note>Your presence is the greatest gift.</p>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Good to know</p>
+        <h2>Questions & answers</h2>
+      </div>
+      <div class="faq-list" data-faq></div>
+    </section>
+
+    <section class="rsvp-section section-pad" id="rsvp">
+      <div class="rsvp-copy reveal">
+        <p class="eyebrow">Kindly Respond</p>
+        <h2>Will you join us?</h2>
+        <p>Please reply by <strong data-rsvp-deadline>April 15, 2027</strong>. We hope to celebrate with you.</p>
+        <p class="small-note">This template can store RSVPs in Cloudflare D1 at no cost within the free-plan limits.</p>
+      </div>
+
+      <form class="rsvp-form reveal" id="rsvp-form" novalidate>
+        <div class="form-row">
+          <label>Full name
+            <input type="text" name="name" autocomplete="name" required maxlength="100" />
+          </label>
+          <label>Email
+            <input type="email" name="email" autocomplete="email" maxlength="120" />
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Will you attend?
+            <select name="attendance" required>
+              <option value="">Choose one</option>
+              <option value="yes">Joyfully accepts</option>
+              <option value="no">Regretfully declines</option>
+            </select>
+          </label>
+          <label>Number of guests
+            <input type="number" name="guests" value="1" min="1" max="10" required />
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Meal preference
+            <select name="meal">
+              <option value="">No preference</option>
+              <option value="chicken">Chicken</option>
+              <option value="beef">Beef</option>
+              <option value="vegetarian">Vegetarian</option>
+            </select>
+          </label>
+          <label>Phone number
+            <input type="tel" name="phone" autocomplete="tel" maxlength="40" />
+          </label>
+        </div>
+        <label>Message for the couple
+          <textarea name="message" rows="4" maxlength="500" placeholder="Share a note, dietary request, or song recommendation..."></textarea>
+        </label>
+        <label class="hp" aria-hidden="true">Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+        <button class="btn btn-primary submit-btn" type="submit">Send RSVP</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span data-monogram>M & L</span>
+    <p><span data-display-date>Sunday, May 16, 2027</span> · <span data-city>Cebu City, Philippines</span></p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
